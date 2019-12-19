@@ -1,18 +1,66 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "wowowowowow", "postId": 1 },
-    { "id": 1, "body": "wowowowowow", "postId": 1 },
-    { "id": 2, "body": "wowowowowow", "postId": 1 }
-  ],
-  "profile": {
-    "name": "focaldata"
-  }
+  "questions": [
+    {
+      "questionId": 1,
+      "questionTitle": "I expect Donald Trump to win a second term as President of the Unites States.",
+      "answerOptions": [
+        {
+          "answerOption": 1,
+          "text": "Strongly disagree",
+          "selectedByRespondents": 30
+        },
+        {
+          "answerOption": 2,
+          "text": "Disagree",
+          "selectedByRespondents": 10
+        },
+        {
+          "answerOption": 3,
+          "text": "Neither agree nor disagree",
+          "selectedByRespondents": 20
+        },
+        {
+          "answerOption": 4,
+          "text": "Agree",
+          "selectedByRespondents": 10
+        },
+        {
+          "answerOption": 5,
+          "text": "Strongly agree",
+          "selectedByRespondents": 30
+        }
+      ]
+    },
+    {
+      "questionId": 1,
+      "questionTitle": "I expect another Brexit referendum.",
+      "answerOptions": [
+        {
+          "answerOption": 1,
+          "text": "Strongly disagree",
+          "selectedByRespondents": 40
+        },
+        {
+          "answerOption": 2,
+          "text": "Disagree",
+          "selectedByRespondents": 10
+        },
+        {
+          "answerOption": 3,
+          "text": "Neither agree nor disagree",
+          "selectedByRespondents": 20
+        },
+        {
+          "answerOption": 4,
+          "text": "Agree",
+          "selectedByRespondents": 10
+        },
+        {
+          "answerOption": 5,
+          "text": "Strongly agree",
+          "selectedByRespondents": 20
+        }
+      ]
+    }
+  ]
 }
